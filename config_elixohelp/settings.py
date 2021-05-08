@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-#vq+(v19qa6co$lmzr5s!))thqk6y+&^5*3@vb#04^5!c4s88r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'elixohelp.herokuapp.com']
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
